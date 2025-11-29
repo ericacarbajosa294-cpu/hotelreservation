@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Plugin admin base styles */
+html, body, #nhsa-admin-app {
+  height: 100%;
+}
+
