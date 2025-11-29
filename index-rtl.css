@@ -509,9 +509,9 @@ video {
   border-width: 1px;
   border-radius: 0px;
   padding-top: 0.5rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.5rem;
   padding-left: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.75rem;
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-shadow: 0 0 #0000;
@@ -560,10 +560,10 @@ input::placeholder,textarea::placeholder {
 
 select {
   background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 20 20%27%3e%3cpath stroke=%27%236b7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%271.5%27 d=%27M6 8l4 4 4-4%27/%3e%3c/svg%3e");
-  background-position: right 0.5rem center;
+  background-position: left 0.5rem center;
   background-repeat: no-repeat;
   background-size: 1.5em 1.5em;
-  padding-right: 2.5rem;
+  padding-left: 2.5rem;
   -webkit-print-color-adjust: exact;
           print-color-adjust: exact;
 }
@@ -573,7 +573,7 @@ select {
   background-position: initial;
   background-repeat: unset;
   background-size: initial;
-  padding-right: 0.75rem;
+  padding-left: 0.75rem;
   -webkit-print-color-adjust: unset;
           print-color-adjust: unset;
 }
@@ -716,10 +716,10 @@ select {
   inset: 0px;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .left-0 {
-  left: 0px;
+  right: 0px;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .right-0 {
-  right: 0px;
+  left: 0px;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .z-20 {
   z-index: 20;
@@ -731,16 +731,16 @@ select {
   z-index: 50;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .mx-1 {
-  margin-left: 0.25rem;
   margin-right: 0.25rem;
+  margin-left: 0.25rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .mx-2 {
-  margin-left: 0.5rem;
   margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .mx-auto {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .my-2 {
   margin-top: 0.5rem;
@@ -765,10 +765,10 @@ select {
   margin-bottom: 1.5rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .ml-2 {
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .ml-auto {
-  margin-left: auto;
+  margin-right: auto;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .mt-1 {
   margin-top: 0.25rem;
@@ -1071,8 +1071,8 @@ select {
   border-radius: 0.75rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .rounded-t-\[5px\] {
-  border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .border {
   border-width: 1px;
@@ -1245,24 +1245,24 @@ select {
   padding: 1.5rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .px-2 {
-  padding-left: 0.5rem;
   padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .px-3 {
-  padding-left: 0.75rem;
   padding-right: 0.75rem;
+  padding-left: 0.75rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .px-4 {
-  padding-left: 1rem;
   padding-right: 1rem;
+  padding-left: 1rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .px-\[12px\] {
-  padding-left: 12px;
   padding-right: 12px;
+  padding-left: 12px;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .px-\[25px\] {
-  padding-left: 25px;
   padding-right: 25px;
+  padding-left: 25px;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .py-1 {
   padding-top: 0.25rem;
@@ -1292,7 +1292,7 @@ select {
   padding-bottom: 0.5rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .pr-4 {
-  padding-right: 1rem;
+  padding-left: 1rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .pt-1 {
   padding-top: 0.25rem;
@@ -1304,13 +1304,13 @@ select {
   padding-top: 1rem;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .text-left {
-  text-align: left;
+  text-align: right;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .text-center {
   text-align: center;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .text-right {
-  text-align: right;
+  text-align: left;
 }
 :is(#nhsa-booking-wizard-root, .nhsa-admin) .align-top {
   vertical-align: top;
